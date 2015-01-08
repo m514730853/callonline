@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">来电信使</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_link_list">LinkListActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sms_common_info">SmsCommonInfoActivity</string>
+    <string name="title_activity_user_info">UserInfoActivity</string>
+    <string name="title_activity_edit_password">EditPasswordActivity</string>
+    <string name="title_activity_sp_user_info">SpUserInfoActivity</string>
+    <string name="title_activity_pbox_call_log_info">PboxCallLogInfoActivity</string>
+
+</resources>

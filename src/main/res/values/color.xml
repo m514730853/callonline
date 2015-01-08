@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="yellow">#ffcb00</color>
+    <color name="green">#00FF00</color>
+    <color name="top_green">#667FFF00</color>
+    <color name="orange">#ff6600</color>
+    <color name="gray">#c6c6bc</color>
+    <color name="black">#212121</color>
+    <color name="text_disable_edit">#343434</color>
+    <color name="homepage_text_bg">#11EEEEEE</color>
+    <color name="login_config_text">#ee666E58</color>
+    <color name="login_button_text">#ff555555</color>
+    <color name="less_blue">#b7d1e3</color>
+    <color name="blue">#0000dd</color>
+    <color name="less_less_blue">#d9e2ea</color>
+    <color name="btn_half_transparent">#66ffffff</color>
+    <color name="top_text_back">#99222222</color>
+    <color name="border_line">#ffd7dadc</color>
+    <color name="red">#ffff0000</color>
+    <color name="Silver">#c0c0c0</color>
+    <color name="transparent01">#9000</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray_bold">#FF606060</color>
+    <color name="movie_name">#FF371A12</color>
+    <color name="TextColorBlack">#000000</color>
+    <color name="TextColorBlue">#0066CC</color>
+    <color name="TextColorGray">#FF505050</color>
+    <color name="TextColorRed">#FFE26926</color>
+    <color name="TextColorGreen">#FF00FF00</color>
+    <color name="TextColorRed1">#FFFF0000</color>
+    <color name="TextColorYellow1">#FFFFFF00</color>
+    <color name="TextColorBlue1">#FF080ad3</color>
+    <color name="TextColorGreen1">#FF336619</color>
+    <color name="window_bg">#fff0f3f6</color>
+    <color name="title_bg">#ff54acea</color>
+    <color name="button_unselected">#ff54acea</color>
+    <color name="button_selected">#ff419de4</color>
+    <color name="info_panel_bg">#ffeeeeee</color>
+    <color name="traffic_bg">#ffecf0f1</color>
+    <color name="traffic_txt">#ff414141</color>
+    <color name="traffic_data">#ff666666</color>
+    <color name="background_color">#f4f4f4</color>
+    <color name="gray_light">#ececec</color>
+    <color name="theme_color">#47c0f4</color> <!-- 主题颜色 -->
+    <color name="btn_text_color">#ffffff</color> <!-- 按钮字体颜色 -->
+    <color name="btn_press_color">#f5bf6d</color> <!-- 按钮按下去的颜色 -->
+    <color name="btn_nomal_color">#e58e08</color>
+    <color name="line_color">#99EEEEEE</color> <!-- 列表边框颜色 -->
+    <color name="list_bg">#ffffff</color> <!-- 列表背景颜色 -->
+
+</resources>

@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.netviom.callonline.fragment.AddressListHomeFragment"
+    android:orientation="vertical"
+    >
+
+    <com.netviom.callonline.definedwidget.TopLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/top"
+        >
+    </com.netviom.callonline.definedwidget.TopLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_menu2"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="本地"
+            android:id="@+id/btn_local"
+            android:layout_gravity="bottom"
+            android:background="@drawable/menu2_hover"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="个人"
+            android:id="@+id/btn_personal"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:background="@drawable/menu2"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="客户"
+            android:id="@+id/btn_customer"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:background="@drawable/menu2"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="企业"
+            android:id="@+id/btn_company"
+            android:background="@drawable/menu2"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/address_list_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.netviom.callonline.fragment.ConfigFragment">
+<com.netviom.callonline.definedwidget.TopLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/top"
+    ></com.netviom.callonline.definedwidget.TopLayout>
+
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/config_listview"
+                android:layout_margin="@dimen/margin12"
+                android:background="@drawable/shape_list_bg"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/basic_margin_left"
+                android:layout_marginRight="@dimen/basic_margin_right"
+                style="@style/btnStyle"
+                android:text="退    出"
+                android:id="@+id/button" />
+
+
+</LinearLayout>

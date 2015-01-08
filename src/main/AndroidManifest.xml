@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.netviom.callonline"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="13" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 读取联系人权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 拨打电话权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.nvm.common.constant.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity android:name=".activity.WelcomeActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HomeTabActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SmsCommonInfoActivity"
+            android:label="@string/title_activity_sms_common_info" >
+        </activity>
+        <activity
+            android:name=".activity.SmsSignaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.UserInfoActivity"
+            android:label="@string/title_activity_user_info" >
+        </activity>
+        <activity
+            android:name=".activity.EditPasswordActivity"
+            android:label="@string/title_activity_edit_password" >
+        </activity>
+        <activity
+            android:name=".activity.SpUserInfoActivity"
+            android:label="@string/title_activity_sp_user_info" >
+        </activity>
+        <activity
+            android:name=".activity.PboxCallLogInfoActivity"
+            android:label="@string/title_activity_pbox_call_log_info" >
+        </activity>
+    </application>
+
+</manifest>

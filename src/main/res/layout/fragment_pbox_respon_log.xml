@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.netviom.callonline.fragment.PboxResponLogFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.netviom.callonline.definedwidget.TopLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/top"
+        ></com.netviom.callonline.definedwidget.TopLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pbox_respon_listview"
+        android:layout_margin="@dimen/margin4"
+         />
+</LinearLayout>
